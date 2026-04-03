@@ -9,19 +9,24 @@ pen = turtle.Turtle()
 
 
 
-#TRIANGLE
 
 
-pen.forward(100)
+#square
 
-pen.left(120)
+pen.forward(200)
 
-pen.forward(100)
+pen.left(90)
 
-pen.left(120)
+pen.forward(200)
 
-pen.forward(100)
+pen.left(90)
 
-pen.left(120)
+pen.forward(200)
+
+pen.left(90)
+
+pen.forward(200)
+
+pen.left(90)
 
 turtle.done()
