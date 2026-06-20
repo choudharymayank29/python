@@ -23,7 +23,20 @@ def intial_phonebook ():
                         temp.append(int(input("enter number*:")))
 
             if j == 2:
-                        temp.append(int(input("enter number*:")))
+                        temp.append(int(input("enter email addres*:")))
 
                         if temp [j] == ' 'or temp[j] == ' ':
                               temp[j] = None
+                              
+
+            if j == 3:
+               temp.append(int(imput("enter your date of birth(dd/mm/yy)*:   ")))
+            if temp[j] == '' or temp[j] == '':
+              temp[j] 
+                          
+             if j == 4:
+               temp.append(int(imput(" enter category(family/freinds/work others))*:   "))) 
+
+
+
+        phon_book.append(temp)           
