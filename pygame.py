@@ -46,3 +46,47 @@ class button():
 
         self.font = self.font.font(("splatch.ttf"), 90)
         self.text = self.font.render(f" ",true, (255,255,255))
+
+        self.pl_score = 0
+        self.pc_score = 0
+
+        def player(self):
+            :if self.rock_btn.clciked(30)
+                self.p_option = "rock"
+                self.screen.blit(self.chose_rock,) (120,200)
+              elif self.papper_btn.clicked(340)
+              self.p_option = "papper"
+              self.screen.blit(self.chose_papper,) (120,200)
+              else:
+              self.sissor_btn.clicked(640)
+              self.p_option = "sissor"
+              self.screen.blit(self.chose_sissor,) (120,200)
+
+               return self.p_option
+
+               def computer(self):
+                self.pc_rondom_choice = " "
+                option = ["rock,papper,sissor"]
+                pc_choice = rondom.choice(list(option))
+                if pc_choice == "rock"
+                   self.pc_rondom_choice = "rock"
+                   pc_choice = self.choose_rock
+                elif
+                   pc_choice == "papper"
+                   self.pc_rondom_choice = "papper"
+                   pc_choice = self.choose_papper
+                else
+                   pc_choice == "sissor"
+                   self.pc_rondom_choice = "sisssor"
+                   pc_choice = self.choose_sissor
+                pc_option = self.screen.blit(pc_choice, (600,200))
+                retutn pc_option
+            def.pl.score.chache(self):
+            self.pl_score = 0
+            self.pc_score = 0
+
+
+            pl = self.p_option
+            pc = self.pc_rondom_choice
+            if pl == "rock" and pc == "papper" or pl == "papper" and pc == "sissor" or pl == "sissor" and pc == "rock":
+            self.pc_score += 1
